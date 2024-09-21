@@ -29,7 +29,7 @@ const Swap = () => {
           </div>
         </div>
 
-        <button className="w-full bg-gradient-to-r from-blue-500 to-green-500 text-xl p-3 rounded-lg">Swap</button>
+        <button className="w-full bg-gradient-to-r from-blue-500 to-green-500 text-xl p-3 rounded-lg">Stake</button>
       </div>
     </div>
   );
