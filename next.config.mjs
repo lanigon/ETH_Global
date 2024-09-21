@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+// next.config.mjs
+export default {
+    env: {
+      MAINNET_RPC_URL: process.env.MAINNET_RPC_URL,
+      TOKEN_CONTRACT_ADDRESS: process.env.TOKEN_CONTRACT_ADDRESS,
+      VAULT_CONTRACT_ADDRESS: process.env.VAULT_CONTRACT_ADDRESS,
+      RNG_CONTRACT_ADDRESS: process.env.RNG_CONTRACT_ADDRESS,
+      DISTRIBUTION_CONTRACT_ADDRESS: process.env.DISTRIBUTION_CONTRACT_ADDRESS,
+      INVESTMENT_CONTRACT_ADDRESS: process.env.INVESTMENT_CONTRACT_ADDRESS
+    }
+  }
+  
